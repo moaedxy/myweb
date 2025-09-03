@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;  
+}
+body{
+    background-color:#36384d;
+}
+.container{ position: relative;
+    width: 733px;
+    height: 497px;
+    background-color: white;
+    border-radius: 5%;
+    margin: 80px auto;
+    box-shadow: 6px  rgb(0, 0, 0);
+}
+.divwrite{ position: absolute;
+   float: left ;
+   margin-top: 80px;
+
+}
+.icon1{width: 20px;
+    height: 20px;
+    float: left;
+   margin-left: 40px;
+   margin-top: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(ss.png);
+}
+.icon2{width: 20px;
+    height: 20px;
+    float: left;
+   margin-top: 35px;
+   margin-left: -20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(ss.png);
+}  
+.icon3{width: 20px;
+    height: 20px;
+    float: left;
+   margin-top:61px;
+   margin-left: -20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(ss.png);
+}  
+.divh1{
+    text-align: center;
+    font-size:25px;
+    margin-left: 40px;
+    animation-name: colors;
+    animation-iteration-count:infinite;
+    animation-duration:5s;
+
+}
+@keyframes colors{
+    0%{ margin-left: -600px;
+        color: #ffa5a5;
+ text-shadow: 0px 0px 30px black;
+    }
+    25%{
+      color: #ffa5a5;
+ text-shadow: 0px -38px 30px black ;
+    }
+50%{
+    color: #8a0019;
+
+  text-shadow: 0px -40px 15px black;
+}
+75%{
+    color: #995e2e;
+  text-shadow: 0px -38px black;
+}
+100%{
+    color: #ff3700;
+  text-shadow: 0px 0px black;
+}
+
+
+}
+ .p1{margin-top: 10px; 
+    margin-left: 50px;}
+
+.p2{ margin-left: 50px;}
+
+ .p3{margin-top: 10px; 
+    margin-left: 80px;}
+
+.p4{margin-top: 10px;
+     margin-left: 80px;}
+
+ .p5{margin-top: 10px; 
+    margin-left: 80px;}
+
+.p6{ margin-left: 30px;
+margin-top: 40px;
+text-align: center;
+font-size: 30px;
+}
+
+.input1{margin-top: 5px;
+    width: 260px;
+height: 50px;
+margin-left: 60px;
+border-radius: 15px;
+border:0;
+    background-color: #e9edee;
+    padding: 15px;
+}
+
+.button1{margin-top: 10px;
+    border-radius:15px;
+    border:5px;
+    width: 260px;
+height: 50px;
+margin-left: 60px;
+color: white;
+background-image:linear-gradient(to right ,#ff673e,#fe5f5c,#ff5474);
+margin-top: 10px;
+}
+
+.divimag{margin-top: 0.2px; 
+    border-radius:0% 5% 5% 0%;
+    width: 340px;
+    height: 497px;
+     margin-left: 394px;
+    float:  left;
+    background-image: url(illustration-sign-up-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
